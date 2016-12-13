@@ -1,0 +1,104 @@
+.zhiwu{ position:relative; padding:5px;}
+
+.zhiwu img{position: absolute;
+/*	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s*/;
+	transition: all 0.5s;
+	width:290px;
+	height:190px;}
+.zhiwu:hover img{ z-index:1;}
+.zhiwu:hover img:nth-child(1){
+	-ms-transform: rotate(10deg); 
+    -webkit-transform: rotate(10deg); 
+    transform: rotate(10deg);
+	}
+.zhiwu:hover img:nth-child(2){
+	-ms-transform: rotate(-10deg); 
+    -webkit-transform: rotate(-10deg); 
+    transform: rotate(-10deg);
+	}
+.zhiwu:hover img:nth-child(3){
+	-ms-transform: rotate(20deg); 
+    -webkit-transform: rotate(20deg); 
+    transform: rotate(20deg);
+	}
+.zhiwu:hover img:nth-child(4){
+	-ms-transform: rotate(-20deg); 
+    -webkit-transform: rotate(-20deg); 
+    transform: rotate(-20deg);
+	}
+.zhiwu:hover img:nth-child(5){
+	-ms-transform: rotate(30deg); 
+    -webkit-transform: rotate(30deg); 
+    transform: rotate(30deg);
+	}
+.zhiwu:hover img:nth-child(6){
+	-ms-transform: rotate(-30deg); 
+    -webkit-transform: rotate(-30deg); 
+    transform: rotate(-30deg);
+	}
+.zhiwu:hover img:nth-child(7){
+	-ms-transform: scale(0.9,0.9); 
+    -webkit-transform: scale(0.9,0.9); 
+    transform: scale(0.9,0.9);
+	}
+/*	上面一行*/
+
+.renwu{ position:relative; padding:5px;}
+
+.renwu img{position: absolute;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	width:290px;
+	height:190px;}
+.renwu:hover img{ z-index:1;}
+
+.renwu:hover img:nth-child(1){
+	    -ms-transform:translate(-20%,-85%) scale(0.8,0.8) rotate(-20deg); 
+   	-webkit-transform: translate(-20%,-85%) scale(0.8,0.8) rotate(-20deg); 
+    transform: translate(-20%,-85%) scale(0.8,0.8) rotate(-20deg); 
+}
+.renwu:hover img:nth-child(2){
+	    -ms-transform:translate(-80%,45%) scale(0.8,0.8) rotate(-20deg); 
+   	-webkit-transform: translate(-80%,45%) scale(0.8,0.8) rotate(-20deg); 
+    transform: translate(-80%,45%) scale(0.8,0.8) rotate(-20deg);
+	}		
+.renwu:hover img:nth-child(3){
+	    -ms-transform:translate(20%,85%) scale(0.8,0.8) rotate(-20deg); 
+   	-webkit-transform: translate(20%,85%) scale(0.8,0.8) rotate(-20deg); 
+    transform: translate(20%,85%) scale(0.8,0.8) rotate(-20deg);	
+	}	
+.renwu:hover img:nth-child(4){
+	    -ms-transform: translate(80%,-45%) scale(0.8,0.8) rotate(-20deg); 
+   	-webkit-transform: translate(80%,-45%) scale(0.8,0.8) rotate(-20deg); 
+    transform: translate(80%,-45%) scale(0.8,0.8) rotate(-20deg); 
+	}	
+.renwu:hover img:nth-child(5){
+	    -ms-transform:translate(-100%,-40%) scale(0.8,0.8) rotate(-20deg); 
+   	-webkit-transform: translate(-100%,-40%) scale(0.8,0.8) rotate(-20deg); 
+    transform: translate(-100%,-40%) scale(0.8,0.8) rotate(-20deg);
+}
+.renwu:hover img:nth-child(6){
+	-ms-transform:translate(100%,40%) scale(0.8,0.8) rotate(-20deg); 
+   	-webkit-transform: translate(100%,40%) scale(0.8,0.8) rotate(-20deg); 
+    transform: translate(100%,40%) scale(0.8,0.8) rotate(-20deg);
+	}
+.renwu:hover img:nth-child(7){
+	    -ms-transform:translate(60%,-130%) scale(0.8,0.8) rotate(-20deg); 
+   	-webkit-transform: translate(60%,-130%) scale(0.8,0.8) rotate(-20deg); 
+    transform: translate(60%,-130%) scale(0.8,0.8) rotate(-20deg);
+	}
+.renwu:hover img:nth-child(8){
+	    -ms-transform:translate(-60%,130%) scale(0.8,0.8) rotate(-20deg); 
+   	-webkit-transform: translate(-60%,130%) scale(0.8,0.8) rotate(-20deg); 
+    transform: translate(-60%,130%) scale(0.8,0.8) rotate(-20deg);
+	}	
+.renwu:hover img:nth-child(9){
+     -ms-transform: scale(1.2,1.2) rotate(-20deg); 
+   	-webkit-transform: scale(1.2,1.2) rotate(-20deg); 
+    transform: scale(1.2,1.2) rotate(-20deg);
+	}	
+#footer{ width:1000px; height:20px; text-align:center; margin:0 auto; color:#999;}

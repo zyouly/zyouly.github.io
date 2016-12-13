@@ -1,0 +1,78 @@
+*{ margin:0px; padding:0px;}
+
+#all{ background:url(../images/xueshanbg2.jpg) no-repeat; width:1380px; height:720px; margin:0 auto;}
+
+/*导航部分*/
+#head{ width:auto; height:70px; text-align:right; border:#09F 0px solid;}
+#head ul{ width:500px; height:23px; float:right; border:#666 0px solid; list-style:none;}
+#head ul li{
+	width:100px; height:23px; float:left; text-align:center; border:dashed #0F0 0px; line-height:23px; font-family:Stencil; font:bold;
+	;
+	}
+#head ul li a:link,#head ul li a:visited{ text-decoration:none; color:#FFF; display:block;}
+#head ul li a:hover{ background:#FFF; color:#CCC; text-indent:8px;
+    -moz-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+	
+	
+	-moz-border-radius: 0px 0 7px 7px;
+    -webkit-border-radius: 0 0 7px 7px;
+    border-radius: 0 0 7px 7px;
+    -moz-box-shadow: 0 0 2px #ccc,inset 0 0 3px #fff;
+    -webkit-box-shadow: 0 0 2px #ccc,inset 0 0 3px #fff;
+    box-shadow: 0 0 2px #ccc,inset 0 0 3px #fff;
+	}
+	
+/*zhongjian*/
+/*#bigleft{ width:150px; height:200px; margin:0px; float:left; border:#009 1px solid;}
+*/#middle{
+	 width:1000px; height:650px; margin:0px auto;
+	 border:#093 0px solid; background:rgba(255,255,255,0.4);}
+#middle_top{ width:1000px; height:200px;}
+#middle_top_left{width:200px; height:200px; float:left; }
+#middle_top_left p{
+	font:"宋体"; font-size:60px; color: rgba(255,255,255,0.8); text-align:center; line-height:200px; background:rgba(0,0,0,0.6);
+	-moz-border-radius: 100px 100px 100px 100px;
+    -webkit-border-radius: 100px 100px 100px 100px;
+    border-radius: 100px 100px 100px 100px;
+	}
+#middle_top_left p:hover{
+	  -moz-transition: all 0.5s linear 0s;
+     -webkit-transition: all 0.5s linear 0s;
+     -o-transition: all 0.5s linear 0s;
+     transition: all 0.5s linear 0s;
+	
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+   -o-transform: rotate(180deg);
+   -ms-transform: rotate(180deg);
+   transform: rotate(180deg);                                               
+	}
+
+
+#middle_top_right{
+	width:800px; height:200px; float:right; border:#000 0px solid; background:url(../images/ablum-top.jpg);
+	-moz-border-radius: 0px 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;}
+#middle_top_right h2{ width:800px; margin:50px auto 5px auto;; text-align:center; font:"宋体"; font-size:35px; line-height:35px; color:rgba(180,225,200,1)}	
+#middle_top_right p{
+	width:800px;
+	margin:12px auto;
+	text-align:right;
+	text-transform:capitalize;
+	font-size:12px;
+	color:rgba(180,225,200,1);
+	padding:0 20px 0 0;}
+
+
+#middle_bottom{ width:1000px; height:440px; border:#F00 0px solid; margin-top:10px;}
+#middle_bottom_dingge{ width:950px; height:430px; margin:10px 25px 30px 25px; }
+
+.middle_tab{ width:290px; height:200px; float:left; margin:0 25px 20px 0;}
+.middle_tab zhiwu{ width:290px; height:200px; padding:5px; background:rgba(255,255,255,1);}
+
+	

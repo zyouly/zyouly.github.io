@@ -1,0 +1,55 @@
+*{ margin:0px; padding:0px;}
+body{ background:url(../images/BG.jpg);}
+#all{ width:1380px; height:720px; margin:0 auto;}
+
+/*导航部分*/
+#head{ width:auto; height:70px; text-align:right; border:#09F 0px solid;}
+#head ul{ width:500px; height:23px; float:right; border:#666 0px solid; list-style:none;}
+#head ul li{
+	width:100px; height:23px; float:left; text-align:center; border:dashed #0F0 0px; line-height:23px; font-family:Stencil; font:bold;
+	;
+	}
+#head ul li a:link,#head ul li a:visited{ text-decoration:none; color:#FFF; display:block;}
+#head ul li a:hover{ background:#FFF; color:#CCC; text-indent:8px;
+    -moz-transform: skewX(-30deg);
+    -webkit-transform: skewX(-30deg);
+    -o-transform: skewX(-30deg);
+    -ms-transform: skewX(-30deg);
+    transform: skewX(-30deg);
+	
+	
+	-moz-border-radius: 0px 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -moz-box-shadow: 0 0 1px #ccc,inset 0 0 2px #fff;
+    -webkit-box-shadow: 0 0 1px #ccc,inset 0 0 2px #fff;
+    box-shadow: 0 0 1px #ccc,inset 0 0 2px #fff;
+	}
+
+
+
+
+
+
+/*中间部分*/
+#top{ text-align:center; margin-bottom:175px;}
+.one{ margin-bottom:10px;}
+.welcome{ margin-bottom:8px;}
+hr{ width:300px; height:1px; color:#FFF; margin:0 auto;}
+.isall{ margin-top:10px; height:50px; vertical-align:text-bottom;}
+
+
+#bottom{ background:url(../images/hentiao.png) no-repeat; text-align:center;}
+#a{ margin:0 30px;}
+#l{ margin:0 30px;}
+#s{ margin:0 50px;}
+#a a:link{}
+#a a:hover{}
+a:link {
+	cursor: auto;
+	filter: Light;
+}
+a:hover {
+	filter: FlipH;
+}
+#footer{ width:1000px; height:20px; text-align:center; margin:0 auto; color:#999;}
