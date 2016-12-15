@@ -5,7 +5,7 @@
 
 #all{ width:1380px; height:720px; border:#333 solid 1px; background:url(../images/xueshanbg2.jpg) no-repeat; margin:0 auto;}
 #head{ width:auto; height:70px; text-align:right; border:#09F 0px solid;}
-#head ul{ width:500px; height:23px; float:right; border:#666 0px solid; list-style:none;}
+#head ul{ width:100%; height:23px; float:right; border:#666 0px solid; list-style:none;}
 #head ul li{ width:100px; height:23px; float:left; text-align:center; border:dashed #0F0 0px; line-height:23px; font-family:Stencil; font:bold;}
 #head ul li a:link,#head ul li a:visited{ text-decoration:none; color:#FFF; display:block;}
 #head ul li a:hover{ background:#FFF; color:#CCC; text-indent:8px;
